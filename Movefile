@@ -1,0 +1,62 @@
+local:
+  vhost: "http://nutrologiacientifica.local"
+  wordpress_path: "/var/www/nutrologiacientifica/" # use an absolute path here
+
+  database:
+    name: "nutrologia"
+    user: "root"
+    password: "root"
+    host: "localhost"
+
+production:
+  vhost: "http://nutrologiacientifica.com.br"
+  wordpress_path: "/home/nutrologiacientifica/www/" # use an absolute path here
+
+  database:
+    name: "nutrologiacien"
+    user: "nutrologiacien"
+    password: "p0o9i8u7y6"
+    host: "mysql.nutrologiacientifica.com.br"
+    # port: "3308" # Use just in case you have exotic server config
+    # mysqldump_options: "--max_allowed_packet=1G" # Only available if using SSH
+
+  exclude:
+    - ".git/"
+    - ".gitignore"
+    - ".sass-cache/"
+    - "node_modules/"
+    - "bin/"
+    - "tmp/*"
+    - "Gemfile*"
+    - "Movefile"
+    - "wp-config.php"
+    - "wp-content/*.sql"
+
+  # paths: # you can customize wordpress internal paths
+  #   wp_content: "wp-content"
+  #   uploads: "wp-content/uploads"
+  #   plugins: "wp-content/plugins"
+  #   mu_plugins: "wp-content/mu-plugins"
+  #   themes: "wp-content/themes"
+  #   languages: "wp-content/languages"
+
+  ssh:
+     host: "ftp.nutrologiacientifica.com.br"
+     user: "nutrologiacientifica"
+     password: "Adolfo4321" # password is optional, will use public keys if available.
+  #   port: 22 # Port is optional
+     rsync_options: "--verbose" # Additional rsync options, optional
+  #   gateway: # Gateway is optional
+  #     host: "host"
+  #     user: "user"
+  #     password: "password" # password is optional, will use public keys if available.
+
+  # ftp:
+  #   user: "user"
+  #   password: "password"
+  #   host: "host"
+  #   passive: true
+  #   scheme: "ftps" # default "ftp"
+
+# staging: # multiple environments can be specified
+#   [...]
