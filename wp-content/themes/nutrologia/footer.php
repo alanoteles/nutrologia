@@ -90,7 +90,7 @@
 			</div>
 		</div>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
-		<script src="<?php bloginfo('template_directory');  ?>/assets/js/jquery-2.2.4.min.js"></script>
+		<script src="<?php bloginfo('template_directory');  ?>/assets/js/jquery-2.1.1.min.js"></script>
 		<script src="<?php bloginfo('template_directory');  ?>/assets/js/bootstrap.min.js"></script>
 		<script src="<?php bloginfo('template_directory');  ?>/assets/js/main.js"></script>
 		<script src="//use.typekit.net/gla7wnd.js"></script>

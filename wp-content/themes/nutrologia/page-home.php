@@ -63,16 +63,19 @@ get_header(); ?>
 <section id="optin">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6">
-				
-			</div>
-			<div class="col-sm-6">
-				
+			
+			<div class="form-group col-sm-8">
 				<form class="search-form" role="form">
-						<label for="sidebar-search">Busca</label>
-						<input type="text" id="sidebar-search" placeholder="Localizar conteúdo...">
-					</form>	
+					<input type="text" id="sidebar-search" placeholder="Localizar conteúdo...">
+				</form>
 			</div>
+			<div class="form-group  col-sm-4">
+				<!-- <button class="btn btn-success btn-block" data-toggle="modal" data-target="#myModal"> -->
+				<button class="btn btn-success btn-block">
+					Buscar
+				</button>
+			</div>
+					
 		</div>
 	</div>
 </section>

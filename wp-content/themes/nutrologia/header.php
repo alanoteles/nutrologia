@@ -17,7 +17,7 @@
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 
 		<!-- Bootstrap core CSS -->
-		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();  ?>/assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory');  ?>/assets/css/bootstrap.min.css">
 
 		<!-- FontAwesome Icons -->
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory');  ?>/assets/css/font-awesome/css/font-awesome.min.css">
